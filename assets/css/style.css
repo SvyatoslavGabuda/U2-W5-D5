@@ -1,0 +1,235 @@
+body {
+  /* font-family: "Spectral", serif; */
+  font-family: "Roboto", sans-serif;
+}
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+  position: sticky;
+  top: 0;
+  padding: 20px 0;
+  z-index: 20;
+}
+.newColor {
+  animation: nuovoColore 2s;
+}
+@keyframes nuovoColore {
+  0% {
+    background-color: #ffc017;
+  }
+  100% {
+    background-color: white;
+    color: #191919;
+  }
+}
+header h2 {
+  padding-left: 40px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding-right: 50px;
+}
+nav li {
+  padding: 0px 10px;
+  font-size: 0.8em;
+}
+.newColor nav ul li span {
+  animation: coloreVerde 2s;
+}
+@keyframes coloreVerde {
+  0% {
+  }
+  100% {
+    background-color: #1a8917;
+  }
+}
+nav ul li span {
+  background-color: #191919;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+}
+/* secondo header */
+#bloccoGiallo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+}
+h1 {
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-size: 6rem;
+  padding: 10px 0;
+}
+#bloccoGiallo div {
+  width: 50%;
+  padding-left: 40px;
+}
+svg {
+  height: 100%;
+}
+#bloccoGiallo h2 {
+  font-size: 2em;
+  padding: 10px 0;
+  padding-bottom: 50px;
+}
+#bloccoGiallo button {
+  background-color: #191919;
+  color: white;
+  padding: 5px 45px;
+  border-radius: 50px;
+}
+main {
+  padding: 0 100px;
+}
+/* PRIMO ARTICOLO */
+#firstArticle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  border-bottom: 1px lightgray solid;
+  margin-bottom: 50px;
+}
+#firstArticle h2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  padding-left: 20px;
+}
+#firstArticle h2 p {
+  padding-left: 10px;
+  font-weight: 600;
+}
+.container1 {
+  /* border: 1px solid green; */
+  width: 30%;
+  display: flex;
+  align-self: stretch;
+  margin: 25px 10px;
+}
+.container1 span {
+  font-size: 2.2em;
+  font-weight: 900;
+  color: lightgray;
+}
+.container1 > .card {
+  width: 100%;
+  padding-right: 50px;
+}
+
+.card {
+  /* border: 1px solid black; */
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+.card h4 {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.9em;
+  padding-bottom: 10px;
+}
+.card h4 img {
+  border-radius: 20px;
+  width: 1.5em;
+  margin-right: 10px;
+}
+.card h3 {
+  font-weight: 900;
+  font-size: 1.1em;
+  padding-bottom: 10px;
+}
+.card p {
+  color: gray;
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.card p img {
+  padding-left: 10px;
+}
+/* secondo blocco article */
+.container {
+  display: flex;
+  position: relative;
+
+  justify-content: space-around;
+}
+#secondArticle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+.blocco {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  padding: 20px 0;
+}
+#secondArticle .blocco .card {
+  align-self: stretch;
+}
+.card h5 {
+  font-weight: 900;
+  font-size: 1.5em;
+}
+.blocco > img {
+  width: 250px;
+}
+.another {
+  display: flex;
+  justify-content: space-between;
+}
+
+.last {
+  width: 30%;
+  position: relative;
+}
+/* aside */
+aside {
+  width: 100%;
+  position: sticky;
+  top: 70px;
+}
+aside h6 {
+  padding: 10px 0;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+aside div {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+aside button {
+  background: none;
+  border: 1px solid lightgray;
+  color: gray;
+  padding: 10px 20px;
+  margin: 3px;
+}
+aside ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+aside ul li {
+  color: gray;
+  padding: 10px;
+}
