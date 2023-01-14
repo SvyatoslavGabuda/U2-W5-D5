@@ -216,3 +216,17 @@ al sito originale ( non solo alle immagini). Quindi i valori in px non sono prop
     font-size: 1.2em;
   }
 }
+@media screen and (max-width: 350px) {
+  header h2 {
+    padding-left: 10px;
+    width: 50%;
+  }
+  header h2 svg {
+    width: 80%;
+  }
+  nav ul li span {
+    font-size: 0.8em;
+    padding: 10px 6px;
+    border-radius: 50px;
+  }
+}
