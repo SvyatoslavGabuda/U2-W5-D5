@@ -54,6 +54,9 @@ nav ul li span {
   padding: 10px 15px;
   border-radius: 50px;
 }
+ul li:hover {
+  cursor: pointer;
+}
 /* secondo header */
 #bloccoGiallo {
   display: flex;
@@ -146,10 +149,16 @@ main {
   width: 1.5em;
   margin-right: 10px;
 }
+.card h4:hover {
+  cursor: pointer;
+}
 .card h3 {
   font-weight: 900;
   font-size: 1.1em;
   padding-bottom: 10px;
+}
+.card h3:hover {
+  cursor: pointer;
 }
 .card p {
   color: gray;
@@ -188,12 +197,18 @@ main {
   font-weight: 900;
   font-size: 1.5em;
 }
+.card h5:hover {
+  cursor: pointer;
+}
 .blocco > img {
   width: 250px;
 }
 .another {
   display: flex;
   justify-content: space-between;
+}
+.bookmark:hover {
+  cursor: pointer;
 }
 
 .last {
@@ -223,6 +238,9 @@ aside button {
   color: gray;
   padding: 10px 20px;
   margin: 3px;
+}
+button:hover {
+  cursor: pointer;
 }
 aside ul {
   display: flex;
