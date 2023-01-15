@@ -213,7 +213,7 @@ al sito originale ( non solo alle immagini). Quindi i valori in px non sono prop
     display: none;
   }
   main {
-    padding: 1px;
+    padding: 10px;
   }
   .blocco > img {
     width: 150px;
@@ -237,6 +237,8 @@ al sito originale ( non solo alle immagini). Quindi i valori in px non sono prop
   header h2 svg {
     width: 80%;
   }
+}
+@media screen and (max-width: 280px) {
   nav ul li span {
     font-size: 0.8em;
     padding: 10px 6px;

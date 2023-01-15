@@ -26,6 +26,7 @@ header {
     color: #191919;
   }
 }
+
 header h2 {
   padding-left: 100px;
 }
@@ -43,6 +44,7 @@ nav li {
 }
 @keyframes coloreVerde {
   0% {
+    background-color: #191919;
   }
   100% {
     background-color: #1a8917;
@@ -71,6 +73,7 @@ h1 {
   font-family: "Spectral", serif;
   font-weight: 500;
   font-size: 6rem;
+  letter-spacing: -0.05em;
   padding: 10px 0;
 }
 #bloccoGiallo div {

@@ -1,14 +1,20 @@
 const header = document.querySelector("header");
+const getStartedBtn = document.querySelector("nav ul li span");
 const cambioColore = function () {
   let offset = window.pageYOffset;
   //   console.log(offset);
 
   if (offset > 300) {
     header.classList.add("newColor");
+    header.style.backgroundColor = "white";
+    getStartedBtn.style.backgroundColor = "#1a8917";
   } else {
     header.classList.remove("newColor");
+    header.style.backgroundColor = "#ffc017";
+    getStartedBtn.style.backgroundColor = "#191919";
   }
 };
+
 window.addEventListener("scroll", cambioColore);
 
 const letteraM = document.querySelectorAll(`svg g[stroke-linecap="butt" ]`);
