@@ -27,7 +27,7 @@ header {
   }
 }
 header h2 {
-  padding-left: 40px;
+  padding-left: 100px;
 }
 nav ul {
   display: flex;
@@ -53,6 +53,7 @@ nav ul li span {
   color: white;
   padding: 10px 15px;
   border-radius: 50px;
+  font-weight: 500;
 }
 ul li:hover {
   cursor: pointer;
@@ -64,6 +65,7 @@ ul li:hover {
   justify-content: space-between;
   background-color: #ffc017;
   border-bottom: 1px solid black;
+  position: relative;
 }
 h1 {
   font-family: "Spectral", serif;
@@ -73,9 +75,9 @@ h1 {
 }
 #bloccoGiallo div {
   width: 50%;
-  padding-left: 40px;
+  padding-left: 100px;
 }
-svg {
+#bloccoGiallo svg {
   height: 100%;
 }
 #bloccoGiallo h2 {

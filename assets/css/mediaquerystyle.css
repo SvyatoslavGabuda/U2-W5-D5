@@ -3,10 +3,16 @@ al sito originale ( non solo alle immagini). Quindi i valori in px non sono prop
 
 @media screen and (max-width: 1200px) {
   h1 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
   #bloccoGiallo h2 {
     font-size: 1.5em;
+  }
+  header h2 {
+    padding-left: 70px;
+  }
+  #bloccoGiallo div {
+    padding-left: 70px;
   }
   main {
     padding: 0 50px;
@@ -63,7 +69,14 @@ al sito originale ( non solo alle immagini). Quindi i valori in px non sono prop
 /* 1024px>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media screen and (max-width: 1024px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
+  }
+  header h2 {
+    padding-left: 40px;
+  }
+  #bloccoGiallo div {
+    padding-left: 40px;
+    width: 60%;
   }
   #bloccoGiallo h2 {
     font-size: 1.3em;
